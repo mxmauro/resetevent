@@ -1,3 +1,5 @@
+// See the LICENSE file for license details.
+
 package resetevent_test
 
 import (
