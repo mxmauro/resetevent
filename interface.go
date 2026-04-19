@@ -13,5 +13,5 @@ type Event interface {
 	Set()
 
 	WaitCh() <-chan struct{}
-	Wait(ctx context.Context)
+	Wait(ctx context.Context) error
 }
